@@ -1,0 +1,6 @@
+let reload = () =>{
+    location.reload()
+}
+
+
+

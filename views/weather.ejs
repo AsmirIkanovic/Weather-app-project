@@ -1,0 +1,30 @@
+<%- include('include/_header') %> 
+
+<main class="masthead">
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center ">
+
+            <div class="container.sm w-50 h-50 bg-dark opacity-75 rounded">
+                <h2 class="name opacity-100">
+                    <%= name %>
+                </h2>
+                <h3 class="weather">
+                    <%= description %><span><img class="icon-big" src="<%= imgURL %> "> </span>
+                </h3>
+                <h1 class="temp">
+                    <%= temp %>
+                </h1>
+                <h3 class="feelslike">
+                    <%= feelsLike %>
+                </h3>
+                <h3 class="wind"><span><img class="icon" src="<%= windIcon  %>"></span>
+                    <%= wind %>
+                </h3>
+            </div>
+        </div>
+</main>
+
+<%- include('include/_about_app') %> 
+
+
+<%- include('include/_footer') %> 
